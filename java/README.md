@@ -70,4 +70,7 @@ assuming the file provided data from 4 cores, output will be named in a similar 
 
 ```
 filename-01-core-00.txt
+filename-01-core-01.txt
+filename-01-core-02.txt
+filename-01-core-03.txt
 ```

@@ -34,7 +34,7 @@ Example Output:
 
 # Compilation
 
-Within the CS417_Semester_Project/java directory, run:
+Within the CS417-Semester-Project/java directory, run:
 
 ```
 ./gradlew build

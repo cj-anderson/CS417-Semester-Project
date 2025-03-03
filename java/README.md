@@ -9,7 +9,7 @@
 
 This project processes CPU core temperatures from an input file using:
  * Piecewise Linear Approximation
- * Least Squares Approximation
+ * Least Squares Approximation (Currently Unfinished)
 
 
 # Input/Output Format

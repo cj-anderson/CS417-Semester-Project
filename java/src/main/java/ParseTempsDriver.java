@@ -73,5 +73,12 @@ public class ParseTempsDriver {
 
         pw.linearInterpolationLoop();
         System.out.println("Piecewise Linear Interpolation complete. Output files generated.");
+
+        LeastSquares ls = new LeastSquares(coreReadings, 30, args[0]);
+
+        ls.linearInterpolationLoop();
+        System.out.println("Least-Squares Interpolation complete. Output files generated.");
+
+
     }
 }

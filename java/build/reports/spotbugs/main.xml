@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<BugCollection version="4.7.1" sequence="0" timestamp="1742412918127" analysisTimestamp="1742412918127" release="">
+<BugCollection version="4.7.1" sequence="0" timestamp="1742414399779" analysisTimestamp="1742414399779" release="">
   <Project projectName="java (spotbugsMain)">
     <Jar>C:\Users\drpyd\Desktop\CS417_Semester_Project\CS417-Semester-Project\java\build\classes\java\main\edu\odu\cs\cs417\TemperatureParser$CoreTempReading.class</Jar>
     <Jar>C:\Users\drpyd\Desktop\CS417_Semester_Project\CS417-Semester-Project\java\build\classes\java\main\edu\odu\cs\cs417\TemperatureParser.class</Jar>
@@ -1476,7 +1476,7 @@
       <StackTrace>edu.umd.cs.findbugs.FindBugs2.main(FindBugs2.java:1231)</StackTrace>
     </Error>
   </Errors>
-  <FindBugsSummary timestamp="Wed, 19 Mar 2025 15:35:18 -0400" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="23.0.2" vm_version="23.0.2+7-58" cpu_seconds="3.77" clock_seconds="1.27" peak_mbytes="123.62" alloc_mbytes="4022.00" gc_seconds="0.01">
+  <FindBugsSummary timestamp="Wed, 19 Mar 2025 15:59:59 -0400" total_classes="0" referenced_classes="0" total_bugs="0" total_size="0" num_packages="0" java_version="23.0.2" vm_version="23.0.2+7-58" cpu_seconds="4.20" clock_seconds="1.28" peak_mbytes="123.63" alloc_mbytes="4022.00" gc_seconds="0.01">
     <FindBugsProfile></FindBugsProfile>
   </FindBugsSummary>
   <ClassFeatures></ClassFeatures>

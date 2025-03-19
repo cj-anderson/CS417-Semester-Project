@@ -11,7 +11,9 @@ public class Piecewise {
         this.filename = f;
     }
 
-    //Generate filename.
+    /** Generate filename to be found, or, if file doesn't exist, to be made.
+    * @param core the core to generate a name for.
+    */
     private String genFileName(int core){
         return filename.replace(".txt", "-core-" + String.format("%02d",core) + ".txt");
     }
@@ -41,19 +43,19 @@ public class Piecewise {
      * @param filename the name of the input file, used to generate the output file names.
      */
     public void linearInterpolationLoop (){
-        //Loop through each core.
+        // Loop through each core.
         for (int i = 0; i < readings.length; i++){
             String coreFileName = genFileName(i);
             
             try{
-                //Create a new output file.
+                // Create a new output file.
                 FileWriter out =  new FileWriter(new File(coreFileName));
 
                 linearInterpolation(i, out);
                 
                 out.close();
             }catch(IOException ex){
-                //Handle IO Exceptions.
+                // Handle IO Exceptions.
                 System.err.println("Error creating output file for core " + i
                 + ex.getMessage());
             }
@@ -61,7 +63,7 @@ public class Piecewise {
     }
 
     public void linearInterpolation (int i, FileWriter out) throws IOException{
-         //Perform the actual Piecewise Linear Interpolation.
+         // Perform the actual Piecewise Linear Interpolation for each core.
          for(int j = 0; j < readings[i].length-1; j++){
             double[] data = PiecewiseInterpolation(
                 j * step, (j+1) * step, readings[i][j], readings[i][j+1]); 

@@ -2,9 +2,9 @@
 <pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
-    version="6.21.0" timestamp="2025-03-19T15:35:16.135">
+    version="6.21.0" timestamp="2025-03-19T15:59:57.760">
 <file name="C:\Users\drpyd\Desktop\CS417_Semester_Project\CS417-Semester-Project\java\src\main\java\LeastSquares.java">
-<violation beginline="5" endline="121" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="LeastSquares" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+<violation beginline="5" endline="146" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="LeastSquares" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
 All classes, interfaces, enums and annotations must belong to a named package
 </violation>
 <violation beginline="6" endline="6" begincolumn="24" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="LeastSquares" variable="readings" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
@@ -25,235 +25,235 @@ Found non-transient, non-static member. Please mark as transient or provide acce
 <violation beginline="8" endline="8" begincolumn="20" endcolumn="27" rule="ImmutableField" ruleset="Design" class="LeastSquares" variable="filename" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#immutablefield" priority="3">
 Private field 'filename' could be made final; it is only initialized in the declaration or constructor.
 </violation>
-<violation beginline="11" endline="11" begincolumn="56" endcolumn="56" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="f" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="10" endline="10" begincolumn="56" endcolumn="56" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="f" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like f
 </violation>
-<violation beginline="11" endline="11" begincolumn="46" endcolumn="46" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="s" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="10" endline="10" begincolumn="46" endcolumn="46" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="s" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like s
 </violation>
-<violation beginline="11" endline="11" begincolumn="49" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="f" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="10" endline="10" begincolumn="49" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="f" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'f' is not assigned and could be declared final
 </violation>
-<violation beginline="11" endline="11" begincolumn="25" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="read" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="10" endline="10" begincolumn="25" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="read" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'read' is not assigned and could be declared final
 </violation>
-<violation beginline="11" endline="11" begincolumn="42" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="s" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="10" endline="10" begincolumn="42" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquares" variable="s" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 's' is not assigned and could be declared final
 </violation>
-<violation beginline="11" endline="11" begincolumn="25" endcolumn="39" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="LeastSquares" method="LeastSquares" variable="read" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+<violation beginline="10" endline="10" begincolumn="25" endcolumn="39" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="LeastSquares" method="LeastSquares" variable="read" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
 The user-supplied array 'read' is stored directly.
 </violation>
-<violation beginline="18" endline="18" begincolumn="32" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genFileName" variable="core" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="19" endline="19" begincolumn="32" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genFileName" variable="core" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'core' is not assigned and could be declared final
 </violation>
-<violation beginline="25" endline="25" begincolumn="13" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="43" endline="43" begincolumn="13" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'coreFileName' could be declared final
 </violation>
-<violation beginline="27" endline="27" begincolumn="24" endcolumn="26" rule="CloseResource" ruleset="Error Prone" class="LeastSquares" method="linearInterpolationLoop" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+<violation beginline="45" endline="45" begincolumn="24" endcolumn="26" rule="CloseResource" ruleset="Error Prone" class="LeastSquares" method="linearInterpolationLoop" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
 Ensure that resources like this FileWriter object are closed after use
 </violation>
-<violation beginline="27" endline="37" begincolumn="21" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="LeastSquares" method="linearInterpolationLoop" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'out' (lines '27'-'37').
+<violation beginline="45" endline="55" begincolumn="21" endcolumn="60" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="LeastSquares" method="linearInterpolationLoop" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'out' (lines '45'-'55').
 </violation>
-<violation beginline="27" endline="40" begincolumn="21" endcolumn="64" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="LeastSquares" method="linearInterpolationLoop" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DD'-anomaly for variable 'out' (lines '27'-'40').
+<violation beginline="45" endline="58" begincolumn="21" endcolumn="64" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="LeastSquares" method="linearInterpolationLoop" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'out' (lines '45'-'58').
 </violation>
-<violation beginline="34" endline="34" begincolumn="32" endcolumn="53" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+<violation beginline="52" endline="52" begincolumn="32" endcolumn="53" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
 Avoid instantiating new objects inside loops
 </violation>
-<violation beginline="34" endline="34" begincolumn="17" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="52" endline="52" begincolumn="17" endcolumn="53" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'outFile' could be declared final
 </violation>
-<violation beginline="37" endline="37" begincolumn="31" endcolumn="40" rule="AvoidFileStream" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+<violation beginline="55" endline="55" begincolumn="31" endcolumn="40" rule="AvoidFileStream" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
 Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
 </violation>
-<violation beginline="37" endline="37" begincolumn="27" endcolumn="60" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+<violation beginline="55" endline="55" begincolumn="27" endcolumn="60" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
 Avoid instantiating new objects inside loops
 </violation>
-<violation beginline="40" endline="40" begincolumn="31" endcolumn="40" rule="AvoidFileStream" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+<violation beginline="58" endline="58" begincolumn="31" endcolumn="40" rule="AvoidFileStream" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
 Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
 </violation>
-<violation beginline="40" endline="40" begincolumn="27" endcolumn="64" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+<violation beginline="58" endline="58" begincolumn="27" endcolumn="64" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
 Avoid instantiating new objects inside loops
 </violation>
-<violation beginline="43" endline="43" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="linearInterpolationLoop" variable="ls" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="62" endline="62" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="linearInterpolationLoop" variable="ls" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like ls
 </violation>
-<violation beginline="43" endline="43" begincolumn="17" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="62" endline="62" begincolumn="17" endcolumn="74" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'ls' could be declared final
 </violation>
-<violation beginline="43" endline="43" begincolumn="31" endcolumn="74" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="62" endline="62" begincolumn="31" endcolumn="74" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="45" endline="46" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="65" endline="66" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="45" endline="46" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="65" endline="66" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="45" endline="46" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="65" endline="66" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="45" endline="46" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="65" endline="66" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="45" endline="46" begincolumn="28" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="65" endline="66" begincolumn="28" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="45" endline="46" begincolumn="28" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="65" endline="66" begincolumn="28" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="45" endline="46" begincolumn="28" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="65" endline="66" begincolumn="28" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="45" endline="46" begincolumn="28" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="65" endline="66" begincolumn="28" endcolumn="65" rule="LawOfDemeter" ruleset="Design" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="51" endline="51" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="72" endline="72" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="LeastSquares" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.err.println is used
 </violation>
-<violation beginline="61" endline="61" begincolumn="58" endcolumn="69" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="LeastSquaresApproximation" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+<violation beginline="83" endline="83" begincolumn="58" endcolumn="69" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="LeastSquaresApproximation" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
 Consider using varargs for methods or constructors which take an array the last parameter.
 </violation>
-<violation beginline="61" endline="61" begincolumn="58" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="83" endline="83" begincolumn="58" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'arr' is not assigned and could be declared final
 </violation>
-<violation beginline="61" endline="61" begincolumn="48" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="83" endline="83" begincolumn="48" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'step' is not assigned and could be declared final
 </violation>
-<violation beginline="61" endline="87" begincolumn="13" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+<violation beginline="83" endline="109" begincolumn="13" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
 The instance method name 'LeastSquaresApproximation' doesn't match '[a-z][a-zA-Z0-9]*'
 </violation>
-<violation beginline="62" endline="62" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="a1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="84" endline="84" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="a1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like a1
 </violation>
-<violation beginline="62" endline="62" begincolumn="9" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="84" endline="84" begincolumn="9" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'a1' could be declared final
 </violation>
-<violation beginline="63" endline="63" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="a2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="85" endline="85" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="a2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like a2
 </violation>
-<violation beginline="63" endline="63" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="85" endline="85" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'a2' could be declared final
 </violation>
-<violation beginline="64" endline="64" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="a3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="86" endline="86" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="a3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like a3
 </violation>
-<violation beginline="64" endline="64" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="86" endline="86" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'a3' could be declared final
 </violation>
-<violation beginline="66" endline="66" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="b1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="88" endline="88" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="b1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like b1
 </violation>
-<violation beginline="66" endline="66" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="88" endline="88" begincolumn="9" endcolumn="22" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'b1' could be declared final
 </violation>
-<violation beginline="67" endline="67" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="b2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="89" endline="89" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="b2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like b2
 </violation>
-<violation beginline="67" endline="67" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="89" endline="89" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'b2' could be declared final
 </violation>
-<violation beginline="68" endline="68" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="b3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="90" endline="90" begincolumn="16" endcolumn="17" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="b3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like b3
 </violation>
-<violation beginline="68" endline="68" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="90" endline="90" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'b3' could be declared final
 </violation>
-<violation beginline="73" endline="73" begincolumn="9" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="95" endline="95" begincolumn="9" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'det' could be declared final
 </violation>
-<violation beginline="73" endline="73" begincolumn="23" endcolumn="29" rule="UselessParentheses" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+<violation beginline="95" endline="95" begincolumn="23" endcolumn="29" rule="UselessParentheses" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
 Useless parentheses.
 </violation>
-<violation beginline="74" endline="74" begincolumn="9" endcolumn="48" rule="PrematureDeclaration" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#prematuredeclaration" priority="3">
+<violation beginline="96" endline="96" begincolumn="9" endcolumn="48" rule="PrematureDeclaration" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#prematuredeclaration" priority="3">
 Avoid declaring a variable if it is unreferenced before a possible exit point.
 </violation>
-<violation beginline="74" endline="87" begincolumn="16" endcolumn="48" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="LeastSquares" method="LeastSquaresApproximation" variable="det_slope" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'det_slope' (lines '74'-'87').
+<violation beginline="96" endline="109" begincolumn="16" endcolumn="48" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="LeastSquares" method="LeastSquaresApproximation" variable="det_slope" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'det_slope' (lines '96'-'109').
 </violation>
-<violation beginline="74" endline="74" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="96" endline="96" begincolumn="9" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'det_slope' could be declared final
 </violation>
-<violation beginline="74" endline="74" begincolumn="16" endcolumn="24" rule="VariableNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="det_slope" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#variablenamingconventions" priority="1">
+<violation beginline="96" endline="96" begincolumn="16" endcolumn="24" rule="VariableNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="det_slope" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#variablenamingconventions" priority="1">
 Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'det_slope' is not final.
 </violation>
-<violation beginline="74" endline="74" begincolumn="16" endcolumn="24" rule="LocalVariableNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="det_slope" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+<violation beginline="96" endline="96" begincolumn="16" endcolumn="24" rule="LocalVariableNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="det_slope" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
 The local variable name 'det_slope' doesn't match '[a-z][a-zA-Z0-9]*'
 </violation>
-<violation beginline="74" endline="74" begincolumn="29" endcolumn="35" rule="UselessParentheses" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+<violation beginline="96" endline="96" begincolumn="29" endcolumn="35" rule="UselessParentheses" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
 Useless parentheses.
 </violation>
-<violation beginline="75" endline="75" begincolumn="9" endcolumn="46" rule="PrematureDeclaration" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#prematuredeclaration" priority="3">
+<violation beginline="97" endline="97" begincolumn="9" endcolumn="46" rule="PrematureDeclaration" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#prematuredeclaration" priority="3">
 Avoid declaring a variable if it is unreferenced before a possible exit point.
 </violation>
-<violation beginline="75" endline="87" begincolumn="16" endcolumn="46" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="LeastSquares" method="LeastSquaresApproximation" variable="det_int" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
-Found 'DU'-anomaly for variable 'det_int' (lines '75'-'87').
+<violation beginline="97" endline="109" begincolumn="16" endcolumn="46" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="LeastSquares" method="LeastSquaresApproximation" variable="det_int" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'det_int' (lines '97'-'109').
 </violation>
-<violation beginline="75" endline="75" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="97" endline="97" begincolumn="9" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'det_int' could be declared final
 </violation>
-<violation beginline="75" endline="75" begincolumn="16" endcolumn="22" rule="VariableNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="det_int" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#variablenamingconventions" priority="1">
+<violation beginline="97" endline="97" begincolumn="16" endcolumn="22" rule="VariableNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="det_int" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#variablenamingconventions" priority="1">
 Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'det_int' is not final.
 </violation>
-<violation beginline="75" endline="75" begincolumn="16" endcolumn="22" rule="LocalVariableNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="det_int" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+<violation beginline="97" endline="97" begincolumn="16" endcolumn="22" rule="LocalVariableNamingConventions" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="det_int" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
 The local variable name 'det_int' doesn't match '[a-z][a-zA-Z0-9]*'
 </violation>
-<violation beginline="75" endline="75" begincolumn="27" endcolumn="33" rule="UselessParentheses" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+<violation beginline="97" endline="97" begincolumn="27" endcolumn="33" rule="UselessParentheses" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
 Useless parentheses.
 </violation>
-<violation beginline="83" endline="83" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="m" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="105" endline="105" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="m" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like m
 </violation>
-<violation beginline="83" endline="83" begincolumn="9" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="105" endline="105" begincolumn="9" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'm' could be declared final
 </violation>
-<violation beginline="84" endline="84" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="106" endline="106" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like b
 </violation>
-<violation beginline="84" endline="84" begincolumn="9" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="106" endline="106" begincolumn="9" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="LeastSquaresApproximation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'b' could be declared final
 </violation>
-<violation beginline="90" endline="90" begincolumn="36" endcolumn="47" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="genA2" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+<violation beginline="112" endline="112" begincolumn="36" endcolumn="47" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="genA2" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
 Consider using varargs for methods or constructors which take an array the last parameter.
 </violation>
-<violation beginline="90" endline="90" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genA2" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="112" endline="112" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genA2" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'arr' is not assigned and could be declared final
 </violation>
-<violation beginline="90" endline="90" begincolumn="26" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genA2" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="112" endline="112" begincolumn="26" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genA2" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'step' is not assigned and could be declared final
 </violation>
-<violation beginline="98" endline="98" begincolumn="30" endcolumn="33" rule="UnusedFormalParameter" ruleset="Best Practices" class="LeastSquares" method="genA3" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+<violation beginline="121" endline="121" begincolumn="30" endcolumn="33" rule="UnusedFormalParameter" ruleset="Best Practices" class="LeastSquares" method="genA3" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
 Avoid unused method parameters such as 'step'.
 </violation>
-<violation beginline="98" endline="98" begincolumn="36" endcolumn="47" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="genA3" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+<violation beginline="121" endline="121" begincolumn="36" endcolumn="47" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="genA3" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
 Consider using varargs for methods or constructors which take an array the last parameter.
 </violation>
-<violation beginline="98" endline="98" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genA3" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="121" endline="121" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genA3" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'arr' is not assigned and could be declared final
 </violation>
-<violation beginline="98" endline="98" begincolumn="26" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genA3" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="121" endline="121" begincolumn="26" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genA3" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'step' is not assigned and could be declared final
 </violation>
-<violation beginline="100" endline="102" begincolumn="9" endcolumn="9" rule="ForLoopCanBeForeach" ruleset="Best Practices" class="LeastSquares" method="genA3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+<violation beginline="123" endline="125" begincolumn="9" endcolumn="9" rule="ForLoopCanBeForeach" ruleset="Best Practices" class="LeastSquares" method="genA3" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
 This for loop can be replaced by a foreach loop
 </violation>
-<violation beginline="106" endline="106" begincolumn="36" endcolumn="47" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="genB2" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+<violation beginline="130" endline="130" begincolumn="36" endcolumn="47" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="genB2" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
 Consider using varargs for methods or constructors which take an array the last parameter.
 </violation>
-<violation beginline="106" endline="106" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genB2" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="130" endline="130" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genB2" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'arr' is not assigned and could be declared final
 </violation>
-<violation beginline="106" endline="106" begincolumn="26" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genB2" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="130" endline="130" begincolumn="26" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genB2" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'step' is not assigned and could be declared final
 </violation>
-<violation beginline="114" endline="114" begincolumn="36" endcolumn="47" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="genB3" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
+<violation beginline="139" endline="139" begincolumn="36" endcolumn="47" rule="UseVarargs" ruleset="Best Practices" class="LeastSquares" method="genB3" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#usevarargs" priority="4">
 Consider using varargs for methods or constructors which take an array the last parameter.
 </violation>
-<violation beginline="114" endline="114" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genB3" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="139" endline="139" begincolumn="36" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genB3" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'arr' is not assigned and could be declared final
 </violation>
-<violation beginline="114" endline="114" begincolumn="26" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genB3" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="139" endline="139" begincolumn="26" endcolumn="33" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="LeastSquares" method="genB3" variable="step" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'step' is not assigned and could be declared final
 </violation>
 </file>
@@ -371,7 +371,7 @@ System.out.println is used
 </violation>
 </file>
 <file name="C:\Users\drpyd\Desktop\CS417_Semester_Project\CS417-Semester-Project\java\src\main\java\Piecewise.java">
-<violation beginline="3" endline="73" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="Piecewise" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+<violation beginline="3" endline="75" begincolumn="1" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="Piecewise" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
 All classes, interfaces, enums and annotations must belong to a named package
 </violation>
 <violation beginline="4" endline="4" begincolumn="24" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Piecewise" variable="readings" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
@@ -410,112 +410,112 @@ Parameter 's' is not assigned and could be declared final
 <violation beginline="8" endline="8" begincolumn="22" endcolumn="36" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="Piecewise" method="Piecewise" variable="read" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
 The user-supplied array 'read' is stored directly.
 </violation>
-<violation beginline="15" endline="15" begincolumn="32" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="genFileName" variable="core" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="17" endline="17" begincolumn="32" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="genFileName" variable="core" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'core' is not assigned and could be declared final
 </violation>
-<violation beginline="25" endline="25" begincolumn="49" endcolumn="50" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="x1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="27" endline="27" begincolumn="49" endcolumn="50" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="x1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like x1
 </violation>
-<violation beginline="25" endline="25" begincolumn="57" endcolumn="58" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="x2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="27" endline="27" begincolumn="57" endcolumn="58" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="x2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like x2
 </violation>
-<violation beginline="25" endline="25" begincolumn="68" endcolumn="69" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="y1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="27" endline="27" begincolumn="68" endcolumn="69" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="y1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like y1
 </violation>
-<violation beginline="25" endline="25" begincolumn="79" endcolumn="80" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="y2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="27" endline="27" begincolumn="79" endcolumn="80" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="y2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like y2
 </violation>
-<violation beginline="25" endline="25" begincolumn="45" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="x1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="27" endline="27" begincolumn="45" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="x1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'x1' is not assigned and could be declared final
 </violation>
-<violation beginline="25" endline="25" begincolumn="53" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="x2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="27" endline="27" begincolumn="53" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="x2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'x2' is not assigned and could be declared final
 </violation>
-<violation beginline="25" endline="25" begincolumn="61" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="y1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="27" endline="27" begincolumn="61" endcolumn="69" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="y1" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'y1' is not assigned and could be declared final
 </violation>
-<violation beginline="25" endline="25" begincolumn="72" endcolumn="80" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="y2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="27" endline="27" begincolumn="72" endcolumn="80" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="y2" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'y2' is not assigned and could be declared final
 </violation>
-<violation beginline="25" endline="33" begincolumn="13" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+<violation beginline="27" endline="35" begincolumn="13" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
 The instance method name 'PiecewiseInterpolation' doesn't match '[a-z][a-zA-Z0-9]*'
 </violation>
-<violation beginline="26" endline="26" begincolumn="9" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="28" endline="28" begincolumn="9" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'numerator' could be declared final
 </violation>
-<violation beginline="27" endline="27" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="29" endline="29" begincolumn="9" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'denominator' could be declared final
 </violation>
-<violation beginline="29" endline="29" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="m" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="31" endline="31" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="m" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like m
 </violation>
-<violation beginline="29" endline="29" begincolumn="9" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="31" endline="31" begincolumn="9" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'm' could be declared final
 </violation>
-<violation beginline="30" endline="30" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="32" endline="32" begincolumn="16" endcolumn="16" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like b
 </violation>
-<violation beginline="30" endline="30" begincolumn="9" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="32" endline="32" begincolumn="9" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="PiecewiseInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'b' could be declared final
 </violation>
-<violation beginline="46" endline="46" begincolumn="13" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="48" endline="48" begincolumn="13" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'coreFileName' could be declared final
 </violation>
-<violation beginline="50" endline="50" begincolumn="39" endcolumn="48" rule="AvoidFileStream" ruleset="Performance" class="Piecewise" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
+<violation beginline="52" endline="52" begincolumn="39" endcolumn="48" rule="AvoidFileStream" ruleset="Performance" class="Piecewise" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidfilestream" priority="1">
 Avoid instantiating FileInputStream, FileOutputStream, FileReader, or FileWriter
 </violation>
-<violation beginline="50" endline="50" begincolumn="35" endcolumn="72" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="Piecewise" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
+<violation beginline="52" endline="52" begincolumn="35" endcolumn="72" rule="AvoidInstantiatingObjectsInLoops" ruleset="Performance" class="Piecewise" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops" priority="3">
 Avoid instantiating new objects inside loops
 </violation>
-<violation beginline="50" endline="50" begincolumn="28" endcolumn="30" rule="CloseResource" ruleset="Error Prone" class="Piecewise" method="linearInterpolationLoop" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+<violation beginline="52" endline="52" begincolumn="28" endcolumn="30" rule="CloseResource" ruleset="Error Prone" class="Piecewise" method="linearInterpolationLoop" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
 Ensure that resources like this FileWriter object are closed after use
 </violation>
-<violation beginline="50" endline="50" begincolumn="17" endcolumn="72" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="52" endline="52" begincolumn="17" endcolumn="72" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolationLoop" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'out' could be declared final
 </violation>
-<violation beginline="57" endline="57" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Piecewise" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+<violation beginline="59" endline="59" begincolumn="17" endcolumn="34" rule="SystemPrintln" ruleset="Best Practices" class="Piecewise" method="linearInterpolationLoop" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
 System.err.println is used
 </violation>
-<violation beginline="63" endline="63" begincolumn="56" endcolumn="58" rule="AvoidPrefixingMethodParameters" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#avoidprefixingmethodparameters" priority="4">
+<violation beginline="65" endline="65" begincolumn="56" endcolumn="58" rule="AvoidPrefixingMethodParameters" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#avoidprefixingmethodparameters" priority="4">
 Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
 </violation>
-<violation beginline="63" endline="63" begincolumn="42" endcolumn="42" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+<violation beginline="65" endline="65" begincolumn="42" endcolumn="42" rule="ShortVariable" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
 Avoid variables with short names like i
 </violation>
-<violation beginline="63" endline="63" begincolumn="38" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="65" endline="65" begincolumn="38" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="i" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'i' is not assigned and could be declared final
 </violation>
-<violation beginline="63" endline="63" begincolumn="45" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+<violation beginline="65" endline="65" begincolumn="45" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
 Parameter 'out' is not assigned and could be declared final
 </violation>
-<violation beginline="66" endline="67" begincolumn="13" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+<violation beginline="68" endline="69" begincolumn="13" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Piecewise" method="linearInterpolation" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
 Local variable 'data' could be declared final
 </violation>
-<violation beginline="66" endline="67" begincolumn="29" endcolumn="73" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="68" endline="69" begincolumn="29" endcolumn="73" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="66" endline="67" begincolumn="29" endcolumn="73" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="68" endline="69" begincolumn="29" endcolumn="73" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="66" endline="67" begincolumn="29" endcolumn="73" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="68" endline="69" begincolumn="29" endcolumn="73" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="66" endline="67" begincolumn="29" endcolumn="73" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="68" endline="69" begincolumn="29" endcolumn="73" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="69" endline="70" begincolumn="13" endcolumn="57" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="71" endline="72" begincolumn="13" endcolumn="57" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="69" endline="70" begincolumn="13" endcolumn="57" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="71" endline="72" begincolumn="13" endcolumn="57" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="69" endline="70" begincolumn="24" endcolumn="56" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="71" endline="72" begincolumn="24" endcolumn="56" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="69" endline="70" begincolumn="24" endcolumn="56" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
+<violation beginline="71" endline="72" begincolumn="24" endcolumn="56" rule="LawOfDemeter" ruleset="Design" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_design.html#lawofdemeter" priority="3">
 Potential violation of Law of Demeter (method chain calls)
 </violation>
-<violation beginline="70" endline="70" begincolumn="14" endcolumn="21" rule="UselessParentheses" ruleset="Code Style" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+<violation beginline="72" endline="72" begincolumn="14" endcolumn="21" rule="UselessParentheses" ruleset="Code Style" class="Piecewise" method="linearInterpolation" externalInfoUrl="https://pmd.github.io/pmd-6.21.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
 Useless parentheses.
 </violation>
 </file>

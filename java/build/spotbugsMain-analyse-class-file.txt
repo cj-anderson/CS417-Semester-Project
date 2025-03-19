@@ -1,0 +1,4 @@
+C:\Users\drpyd\Desktop\CS417_Semester_Project\CS417-Semester-Project\java\build\classes\java\main\edu\odu\cs\cs417\TemperatureParser$CoreTempReading.class
+C:\Users\drpyd\Desktop\CS417_Semester_Project\CS417-Semester-Project\java\build\classes\java\main\edu\odu\cs\cs417\TemperatureParser.class
+C:\Users\drpyd\Desktop\CS417_Semester_Project\CS417-Semester-Project\java\build\classes\java\main\ParseTempsDriver.class
+C:\Users\drpyd\Desktop\CS417_Semester_Project\CS417-Semester-Project\java\build\classes\java\main\Piecewise.class

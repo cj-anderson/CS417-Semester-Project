@@ -1,9 +1,15 @@
 import java.io.*;
 
 public class Piecewise {
-    double[][] readings;
-    int step;
-    String filename;
+    private double[][] readings;
+    private int step;
+    private String filename;
+
+    public Piecewise(double[][] read, int s, String f){
+        this.readings = read;
+        this.step = s;
+        this.filename = f;
+    }
 
     //Generate filename.
     private String genFileName(int core){
@@ -34,7 +40,7 @@ public class Piecewise {
      * @param step the length, in seconds, of time between readings.
      * @param filename the name of the input file, used to generate the output file names.
      */
-    public void linearInterpolation (){
+    public void linearInterpolationLoop (){
         //Loop through each core.
         for (int i = 0; i < readings.length; i++){
             String coreFileName = genFileName(i);
@@ -43,20 +49,25 @@ public class Piecewise {
                 //Create a new output file.
                 FileWriter out =  new FileWriter(new File(coreFileName));
 
-                //Perform the actual Piecewise Linear Interpolation.
-                for(int j = 0; j < readings[i].length-1; j++){
-                    double[] data = PiecewiseInterpolation(
-                        j * step, (j+1) * step, readings[i][j], readings[i][j+1]); 
-    
-                    out.append(String.format("%6d <= x <= %6d ; y = %10.4f + %10.4f x ; interpolation\n",
-                    (j * step),  (j+1) * step, data[1], data[0]));
-                }
+                linearInterpolation(i, out);
+                
                 out.close();
             }catch(IOException ex){
                 //Handle IO Exceptions.
                 System.err.println("Error creating output file for core " + i
                 + ex.getMessage());
             }
+        }
+    }
+
+    public void linearInterpolation (int i, FileWriter out) throws IOException{
+         //Perform the actual Piecewise Linear Interpolation.
+         for(int j = 0; j < readings[i].length-1; j++){
+            double[] data = PiecewiseInterpolation(
+                j * step, (j+1) * step, readings[i][j], readings[i][j+1]); 
+
+            out.append(String.format("%6d <= x <= %6d ; y = %10.4f + %10.4f x ; interpolation\n",
+            (j * step),  (j+1) * step, data[1], data[0]));
         }
     }
 }

@@ -69,12 +69,9 @@ public class ParseTempsDriver {
             System.out.println();
         }
 
-        Piecewise pw = new Piecewise();
-        pw.readings = coreReadings;
-        pw.step = 30;
-        pw.filename = args[0];
+        Piecewise pw = new Piecewise(coreReadings, 30, args[0]);
 
-        pw.linearInterpolation();
+        pw.linearInterpolationLoop();
         System.out.println("Piecewise Linear Interpolation complete. Output files generated.");
     }
 }

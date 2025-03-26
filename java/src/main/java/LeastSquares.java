@@ -79,6 +79,8 @@ public class LeastSquares {
     *    Then, return the slope and intercept in a double array of format [slope, intercept].  
     *    [a1  a2 | a3]
     *    [b1  b2 | b3]
+    *    @param step - time/distance between readings/points.
+    *    @param arr - all readings.
     */
     private double[] LeastSquaresApproximation(int step, double[] arr){
         double a1 = (double) arr.length;
@@ -89,9 +91,10 @@ public class LeastSquares {
         double b2 = genB2(step, arr);
         double b3 = genB3(step, arr);
 
+        /**
         // Find determinants for:
         // the initial matrix,
-        // the slope, and the intercept.
+        // the slope, and the intercept. 
         double det = (a1 * b2) - (a2 * b1);
         double det_slope = (a1 * b3) - (a3 * b1);
         double det_int = (a3 * b2) - (a2 * b3);
@@ -101,9 +104,15 @@ public class LeastSquares {
             throw new ArithmeticException("Matrix is singular. Check for errors in data.");
         }
 
-        // Use the determinants to find slope and intercept.
+        // Use the determinants to find slope and intercept. 
         double m = (double) det_slope/det;
         double b = (double) det_int/det;
+        */
+
+        // Below method derived/provided by Prof. Kennedy in lecture.
+        // The above method works, but this one is much fewer lines of code.
+        double m = ((a1 * b3) - (a2 * a3))/((a1 * b2) - (a2 * b1));
+        double b = (a3 / a1) - ((a2 / a1) * m);
 
         return new double[]{m,b};
     }
